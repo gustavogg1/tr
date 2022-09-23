@@ -18,7 +18,7 @@
         echo '<td>'.$produtos['descricao'].'</td>';
         echo '<td>'.$produtos['marca'].'</td>';
         echo '<td>'.$produtos['estoque'].'</td>';
-        echo '<td>'.$produtos['estoque'].'</td>';
+        echo '<td>'.$produtos['preco'].'</td>';
         echo '<td><a href="delete.php?id='.$produtos['id'].'">Excluir</a></td>';
         echo '</tr>';
     }
